@@ -6,11 +6,14 @@
 
 ### 1. 螢幕 promptID 或 結束使用
 
+```
 使用者要結束使用
 螢幕 showFinishMsg
+```
 
 ### 2. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand:
@@ -19,9 +22,11 @@
 螢幕 promptID 或 結束使用
 使用者要結束使用
 螢幕 showFinishMsg
+```
 
 ### 3. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -32,9 +37,11 @@
 螢幕 promptID 或 結束使用
 使用者要結束使用
 螢幕 showFinishMsg
+```
     
 ### 4. 螢幕 prompt ID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -44,9 +51,11 @@
 使用者要離開選單
 螢幕 promptID 或 結束使用
 使用者要結束使用
+```
     
 ### 5. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -59,9 +68,11 @@
 螢幕 promptID 或 結束使用
 使用者要結束使用
 螢幕 showFinishMsg
+```
     
 ### 6. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -74,24 +85,30 @@
 螢幕 promptID 或 結束使用
 使用者要結束使用
 螢幕 showFinishMsg
+```
     
 ## Exceptional scenarios 異常使用情節
 
 ### 7. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入錯誤的 ID
 螢幕顯示錯誤訊息
+```
 
 ### 8. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
 使用者輸入不正確指令
 螢幕顯示錯誤訊息
+```
 
 ### 9. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -99,9 +116,11 @@
 螢幕顯示舊配分
 使用者輸入新配分的總和不為 100%
 螢幕顯示錯誤訊息
+```
 
 ### 10. 螢幕 promptID 或 結束使用
 
+```
 使用者輸入 ID
 螢幕 showWelcomeMsg
 螢幕 promptCommand
@@ -110,15 +129,19 @@
 使用者輸入新配分之總和為 100%
 使用者輸入不正確指令
 螢幕顯示錯誤訊息
+```
 
 ## Acceptance Test Cases (紅色表示使用者輸入) 驗收測試案例
 
 ### 1. 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 
+```
 螢幕顯示：結束了
+```
 
 ### 2. 螢幕顯示：輸入 ID 或 Q (結束使用)︖ 962001051
 
+```
 螢幕顯示：
 Welcome 李威廷
 1) G 顯示成績 (Grade)
@@ -129,9 +152,11 @@ Welcome 李威廷
 使用者輸入： E
 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 螢幕顯示：結束了
+```
 
 ### 3. 開始至輸入指令如上
 
+```
 使用者輸入： G
 螢幕顯示：
 李威廷成績：
@@ -145,9 +170,11 @@ total grade : 81
 使用者輸入： E
 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 螢幕顯示：結束了
+```
 
 ### 4. 開始至輸入指令如上
 
+```
 使用者輸入： R
 螢幕顯示：
 李威廷排名第 22 (例:李陳張 totalGrade 分別為 86 86 83 則其 rank 為 1 1 3)
@@ -155,9 +182,11 @@ total grade : 81
 使用者輸入： E
 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 螢幕顯示：結束了
+```
 
 ### 5. 開始至輸入指令如上
 
+```
 使用者輸入：W
 螢幕顯示
 舊配分
@@ -186,9 +215,11 @@ final exam 60%
 使用者輸入： E
 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 螢幕顯示：結束了
+```
 
 ### 6. 開始至輸入指令如上
 
+```
 使用者輸入：W
 螢幕顯示
 舊配分
@@ -217,19 +248,25 @@ final exam 60%
 使用者輸入： E
 螢幕顯示：輸入 ID 或 Q (結束使用)︖ Q
 螢幕顯示：結束了
+```
 
 ### 7. 螢幕顯示：輸入 ID 或 Q (結束使用)︖ 123456789
 
+```
 螢幕顯示：ID 錯了
+```
 
 ### 8. 螢幕顯示：輸入 ID 或 Q (結束使用)︖ 962001051
 
+```
 輸入指令如上
 使用者輸入： K
 螢幕顯示：指令錯了
+```
 
 ### 9. 開始至輸入指令如上
 
+```
 使用者輸入：W
 螢幕顯示
 舊配分
@@ -246,9 +283,11 @@ mid-term 10
 final exam 10
 螢幕顯示
 指令錯了
+```
 
 ### 10. 開始至輸入指令如上
 
+```
 使用者輸入：W
 螢幕顯示
 舊配分
@@ -261,3 +300,4 @@ final exam 40%
 lab1 asd
 螢幕顯示
 指令錯了
+```
